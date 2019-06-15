@@ -1,7 +1,8 @@
 import sys
 
 try:
-    while True:
+    while 'e':
         sys.stdout.write('e')
-except KeyboardInterrupt:
-    sys.exit(0)
+except KeyboardInterrupt as e:
+    sys.exit('e')
+
